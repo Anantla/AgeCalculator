@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(155, 165, 165);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    font-family: 'Vujahday Script', cursive;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 500px;
+    background:linear-gradient(45deg, #b0c0c0,rgb(0, 255, 213),#699091);
+    text-align: center;
+   
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px black;
+    border: 1px solid rgb(255, 47, 168);
+    border: ipx solid #2b1166;
+
+}
+.text{
+    color: rgb(151, 209, 14);
+    font-weight: bolder;
+    margin-top: 15px ;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgb(126, 12, 12);
+
+}
+.upper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.lower{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 60px;
+}
+.dobtext{
+    color: white;
+    margin-left: 10px;
+
+}
+.cdtext{
+ color: white;
+ margin-left: 10px;
+}
+.input1{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    width:75%;
+
+   
+}
+.input2{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    width:75%;
+}
+.dateb{
+height: 25px;
+border-radius: 5px;
+width:175px;
+margin-right: 10px;
+cursor: pointer;
+padding-left: 10px;
+}
+.datec{
+    height:  25px;
+    border-radius: 5px;
+    width: 175px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.btn{
+    margin-top: 18px;
+}
+.button{
+    background-color: #596611;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+    padding: 10px 50px 10px 50px;
+    cursor: pointer;
+}
+button.button:hover{
+    border: 1px solid greenyellow;
+    background-color:#199496 ;
+}
+
+div.output{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 15px;
+    background-color: rgb(139, 6, 6);
+    border-radius: 5px;
+    color: white;
+    max-width: 45%;
+    font-size: 16px;
+}
+.same{
+    padding:5px,10px,5px,10px;
+    margin: 5px 10px 5px 10px;
+    
+}
